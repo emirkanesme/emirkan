@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+  }
+
+#ebby{
+  width:300px;
+  height:300px;
+}
+#whoami{
+  width: 190px;
+}
+h5 {
+  word-wrap: break-word;
+}
+h1,h2,h3,h4,h5,h6{
+  color: white;
+  text-align: center;
+}
+table tr th a{
+  color: white;
+  padding: 5px;
+  justify-content: center;
+}
+form{
+  text-align: center;
+
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+p,label{
+  color:white;
+  text-align: center;
+  
+}
+#links {
+  margin: 0 auto;
+}
+form {
+  width: 500px; /* Set the width of the form */
+  height: 400px; /* Set the height of the form */
+  margin: auto; /* Center the form horizontally */
+  padding: 20px; /* Add some padding to the form */
+  background-color: #2c2828; /* Add a background color to the form */
+  border-radius: 5px; /* Add some rounded corners to the form */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the form */
+}
+
+label {
+  display: block; /* Display each label on its own line */
+  margin-bottom: 10px; /* Add some space between the labels */
+}
+
+input, textarea {
+  width: 100%; /* Make the input fields and textarea fill the entire width of the form */
+  padding: 10px; /* Add some padding to the input fields and textarea */
+  box-sizing: border-box; /* Include the padding and border in the width of the input fields and textarea */
+  border: 2px solid #ccc; /* Add a border to the input fields and textarea */
+  border-radius: 3px; /* Add some rounded corners to the input fields and textarea */
+}
+
+button {
+  background-color: #4CAF50; /* Add a green background color to the button */
+  color: white; /* Make the text on the button white */
+  padding: 10px 20px; /* Add some padding to the button */
+  border: none; /* Remove the border from the button */
+  border-radius: 3px; /* Add some rounded corners to the button */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+}
+
+button:hover {
+  background-color: #3e8e41; /* Darken the background color of the button when hovering over it */
+}
+
+#success-msg {
+  margin-top: 20px; /* Add some space between the form and the success message */
+  font-weight: bold; /* Make the text in the success message bold */
+}
